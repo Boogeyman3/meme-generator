@@ -1,0 +1,116 @@
+/* SON Form Data:
+JSON Form Data refers to the format in which data is 
+organized and transmitted over the internet. It stands
+ for JavaScript Object Notation Form Data. It is a way 
+ to structure data using key-value pairs, where the keys are 
+ strings and the values can be various data types such as strings,
+  numbers, booleans, arrays, or even nested objects. JSON Form Data is
+ commonly used in web applications to send data between the client
+    (such as a web browser)  and the server.
+
+    
+Form data refers to the information entered by a
+ user in an HTML form. It includes various types of data 
+ such as text, numbers, checkboxes, radio buttons, dropdown
+  selections, and file uploads. When a user submits a form, the data
+   is collected and sent to a server for further processing.
+
+
+Promise:
+A Promise is a programming construct used in 
+JavaScript to handle asynchronous operations. 
+It represents the eventual completion or failure 
+of an asynchronous operation and allows you to 
+ code that can handle the result once it becomes available.
+ Promises are used to handle tasks such as fetching data from a server,
+ reading files, or making network requests without blocking the execution 
+ of other code. They provide a way to organize and manage asynchronous operations
+  in a more structured and manageable manner, using methods like .then() and .catch() 
+  to handle successful and failed outcomes, respectively. */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Karla" sans-serif;
+    margin: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    padding: 20px;
+    background: linear-gradient(90deg, #678880 1.18%, #A626D3 100%);
+    color: #fff;
+
+}
+.header-img{
+    height: 100%;
+    margin-right: 6px;
+}
+.header-title{
+    font-size: 25px;
+    margin-right: auto;
+}
+.header-project{
+    font-size: 17px;
+    font-weight: 500;
+}
+main{
+    padding: 36px;
+}
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+
+}
+.form--input{
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;  
+  font-family: "Karla" sans-serif;
+  text-indent: 5px;
+
+}
+.form--button{
+    grid-column: 1/ -1;
+    background: linear-gradient(90deg, #678880 1.18%, #A626D3 100%);
+    font-family: "Karla" sans-serif;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.memes-image{
+    max-width: 100%;
+}
+.meme{
+    position: relative;
+}
+.meme-text{
+  
+    position: absolute;
+    width: 50%;
+    text-align:center ;
+    left: 50%;
+    transform:translateX(-50%);
+    margin: 15px 0px;
+    padding:0px 5px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 0 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000, -1px 0 0 #000,
+      1px 1px 5px #000;
+  
+}
+ .top{
+    
+    top: 10%;
+    left:25%;
+}
+ .bottom{
+    left:25%;
+    bottom: 40%;
+}
